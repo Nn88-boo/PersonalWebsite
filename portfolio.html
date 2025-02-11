@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <h1>My Portfolio</h1>
+            <h2>Diploma in IT at Berea College of Technology</h2>
+            <ul>
+                <li>Development Software</li>
+                <li>Web Page Design</li>
+                <li>Technical Programming</li>
+                <li>Internet Programming</li>
+                <li>Software Training</li>
+                <li>Business Communication</li>
+                <li>Information Systems</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Microsoft Office</li>
+                <li>Analyze Data</li>
+                <li>Connecting Database with MySQL</li>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>Problem Solving</li>
+                <li>Teamwork and Collaboration</li>
+            </ul>
+        </section>
+    </main>
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.portfolio {
+    background-image: url('Images/NOSIPHO.jpg');  /* Background Image */
+    background-size: cover;   /* Cover the entire section */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Makes the background image stay in place during scrolling */
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #0f0f0f; /* Text color to ensure readability against dark background */
+}
+
+h1, h2 {
+    color: #0f0f0f; /* Ensure headings stand out against the dark background */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #0f0f0f; /* Green color for the subheadings */
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for list items */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .portfolio {
+        width: 90%;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+}
+
+    </style>
+
+    <footer>
+        <p>&copy; 2025 Nosipho Maphumulo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
